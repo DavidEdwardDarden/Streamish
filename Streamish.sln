@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streamish", "Streamish\Streamish.csproj", "{F16DB58F-9403-49C4-986C-0E7169C78CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamish.Tests", "Streamish.Tests\Streamish.Tests.csproj", "{3D3DD1BB-7B6D-4DB5-B34B-EF5048B7A88A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16DB58F-9403-49C4-986C-0E7169C78CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16DB58F-9403-49C4-986C-0E7169C78CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16DB58F-9403-49C4-986C-0E7169C78CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16DB58F-9403-49C4-986C-0E7169C78CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3DD1BB-7B6D-4DB5-B34B-EF5048B7A88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3DD1BB-7B6D-4DB5-B34B-EF5048B7A88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3DD1BB-7B6D-4DB5-B34B-EF5048B7A88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3DD1BB-7B6D-4DB5-B34B-EF5048B7A88A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {445F4A6C-2E16-480C-B156-4C88D19632A3}
+	EndGlobalSection
+EndGlobal
