@@ -19,10 +19,10 @@ export const ApplicationViews = () => {
       <Route path="/videos/:id"> 
       <VideoDetails />
       </Route>
-
-      {/* <Route path="/users/:id"> 
+{/* below is React route which is different from the API route */}
+      <Route path="/users/:id"> 
       <UserVideos />
-      </Route> */}
+      </Route>
     </Switch>
   );
 };

@@ -1,4 +1,6 @@
 const baseUrl = '/api/video';
+const userUrl = '/api/userprofile/GetVideosByUser';
+// const baseUrl2 = 'http:localhost:3000';
 
 export const getAllVideos = () => {
   console.log()
@@ -25,3 +27,11 @@ export const addVideo = (video) => {
 export const getVideo = (id) => {
     return fetch(`${baseUrl}/GetVideoWithComments/${id}`).then((res) => res.json());
 };
+
+export const users = (id) => {
+    return fetch(`${userUrl}/${id}`).then((res) => res.json());
+};
+
+//OPTION 1    http://localhost:3000/users/1
+//OPTION 2    http://localhost:3000/api/video/users/1
+//OPTION 3    http://localhost:3000/api/video/
